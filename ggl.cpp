@@ -8,7 +8,7 @@ int even_array[num_evens] = {0,2,4,6,8};
 int number[num_digits];
 void prime_digit(int index, int digit);
 
-void print_number()
+void print_number() 
 {
     for (int j = 0; j < num_digits; j++)
         cout << number[j];
