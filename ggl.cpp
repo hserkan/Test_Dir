@@ -14,7 +14,7 @@ void print_number()
         cout << number[j];
     cout << endl;
 }
-
+ 
 void even_digit(int index, int digit)
 {
     number[digit] = even_array[index];
