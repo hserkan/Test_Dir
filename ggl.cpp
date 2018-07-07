@@ -11,7 +11,7 @@ void prime_digit(int index, int digit);
 void print_number() 
 {
     for (int j = 0; j < num_digits; j++)
-        cout << number[j];
+        cout << number[j]; 
     cout << endl;
 }
  
