@@ -23,7 +23,7 @@ void even_digit(int index, int digit)
         for (int i = 0; i < num_primes; i++)
             prime_digit(i,digit+1);
     }
-    else
+    else 
         print_number();
 }
 
