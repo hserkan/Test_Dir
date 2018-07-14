@@ -7,7 +7,7 @@ int prime_array[num_primes] = {2, 3, 5, 7};
 int even_array[num_evens] = {0,2,4,6,8};
 int number[num_digits];
 void prime_digit(int index, int digit);
-
+/*
 void helloWorldTest()
  {
     const std::string myString = "Hello World";
@@ -40,6 +40,7 @@ void helloWorldTest()
     if (const auto it = myString.find("World"); it != std::string::npos)
         std::cout << it << " World\n";
 }
+*/
 
 void print_number() 
 {
@@ -75,7 +76,7 @@ void prime_digit(int index, int digit)
 int main()
 {
     int number;
-    helloWorldTest();
+  //  helloWorldTest();
     cin >> number;
     for (int i = 1; i < num_evens; i++)
         even_digit(i, 0);
